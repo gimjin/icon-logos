@@ -43,7 +43,7 @@ $ xdg-open node_modules/@ixiaer/icon-logos/icons
 $ start node_modules\@ixiaer\icon-logos\icons
 ```
 
-## 🚸 Demos (to be the continue)
+## 🚸 Demos
 
 | Browser | Vue | React | angular |
 | :---: | :---: | :---: | :---: |
