@@ -11,10 +11,11 @@
     "url": "git+https://github.com/ixiaer/icon-logos.git"
   },
   "keywords": [
-    "app",
-    "icon",
     "logos",
-    "font",
+    "svg-sprites",
+    "svg-icons",
+    "icon",
+    "symbol",
     "svg",
     "ttf",
     "eot",
