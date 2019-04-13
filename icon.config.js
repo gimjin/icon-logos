@@ -8,7 +8,7 @@ module.exports = {
    */
   symbol: {
     name: 'logos',
-    icons: 'icons/*.svg',
+    icons: 'logos/logos/*.svg',
     template: 'icon-symbol.hbs',
     svgDest: 'assets',
     jsDest: 'assets'

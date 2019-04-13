@@ -32,16 +32,7 @@ import '@ixiaer/icon-logos/assets/logos.js'
 </svg>
 ```
 
-#### 🔍 How to find the icon name ?
-
-```bash
-# Mac
-$ open node_modules/@ixiaer/icon-logos/icons
-# Linux
-$ xdg-open node_modules/@ixiaer/icon-logos/icons
-# Windows
-$ start node_modules\@ixiaer\icon-logos\icons
-```
+Find the [icon name](https://github.com/gilbarbara/logos/tree/master/logos).
 
 ## 🚸 Demos
 
