@@ -31,4 +31,4 @@ import 'assets/scripts/logos.js'
 ```
 
 * [icon names](https://github.com/gilbarbara/logos/tree/master/logos).
-* [Example](https://ixiaer.github.io/icon-logos/)
+* [Example](https://ixiaer.github.io/icon-logos/example.html)
