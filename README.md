@@ -1,41 +1,34 @@
 [![Powered By @ixiaer/icon](https://img.shields.io/github/package-json/dependency-version/ixiaer/icon-logos/dev/@ixiaer/icon.svg)](https://github.com/ixiaer/icon)
 
-> If you like this project, please reward a star. Thank you 🙏
-
-## 📦 Installation
-
-To install *@ixiaer/icon-logos*
+## 📦 Compiling
 
 ```bash
-$ npm i @ixiaer/icon-logos
+$ icon symbol -n logos -i 'logos/logos/*.svg'
+# Or alias package.json
+$ npm run icon
 ```
 
 ## 💎 Usage
 
 ```javascript
 // Webpack
-import '@ixiaer/icon-logos/assets/logos.js'
+import 'assets/scripts/logos.js'
 ```
 
 ```html
 <!-- Or Browser -->
-<script type="text/javascript" src="@ixiaer/icon-logos/assets/logos.js"></script>
+<script type="text/javascript" src="assets/scripts/logos.js"></script>
 ```
 
 ```html
 <!-- Use icons -->
 <svg class="logos" aria-hidden="true">
-  <use xlink:href="#vue" />
+  <use xlink:href="#logos-vue" />
 </svg>
 <svg class="logos" aria-hidden="true">
-  <use xlink:href="#react" />
+  <use xlink:href="#logos-react" />
 </svg>
 ```
 
-Find the [icon name](https://github.com/gilbarbara/logos/tree/master/logos).
-
-## 🚸 Demos
-
-| Browser | Vue | React | angular |
-| :---: | :---: | :---: | :---: |
-| [![Browser](https://cdn.svgporn.com/logos/chrome.svg)](https://github.com/ixiaer/icon-demos) | [![Vue](https://cdn.svgporn.com/logos/vue.svg)](https://github.com/ixiaer/icon-demos) | [![React](https://cdn.svgporn.com/logos/react.svg)](https://github.com/ixiaer/icon-demos) | [![angular](https://cdn.svgporn.com/logos/angular-icon.svg)](https://github.com/ixiaer/icon-demos) |
+* [icon names](https://github.com/gilbarbara/logos/tree/master/logos).
+* [Example](https://ixiaer.github.io/icon-feather/)
