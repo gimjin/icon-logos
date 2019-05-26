@@ -1,6 +1,6 @@
 {
   "name": "@ixiaer/icon-logos",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "The logos icon font for web apps everywhere.",
   "scripts": {
     "icon": "icon symbol -n logos -i 'logos/logos/*.svg'",
