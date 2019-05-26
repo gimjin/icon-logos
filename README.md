@@ -30,5 +30,4 @@ import 'assets/scripts/logos.js'
 </svg>
 ```
 
-* [icon names](https://github.com/gilbarbara/logos/tree/master/logos).
-* [Example](https://ixiaer.github.io/icon-logos/example.html)
+[Example link](https://ixiaer.github.io/icon-logos/example.html)
