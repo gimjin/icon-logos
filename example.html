@@ -5,14 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Example</title>
+    <script type="text/javascript" src="assets/scripts/logos.js"></script>
+    <style type="text/css">
+      .xl {
+        font-size: 2.5rem;
+      }
+
+      .lg {
+        font-size: 1.75rem;
+      }
+
+      .md {
+        font-size: 1.25rem;
+      }
+      /* https://developer.mozilla.org/en-US/docs/Web/CSS/:last-child */
+      #logos-eslint > path:last-child {
+        fill: red;
+      }
+    </style>
   </head>
   <body>
-    <svg class="logos" aria-hidden="true" style="font-size: 100px">
-      <use xlink:href="#logos-vue" />
-    </svg>
-    <svg class="logos" aria-hidden="true" style="font-size: 200px">
-      <use xlink:href="#logos-react" />
-    </svg>
-    <script type="text/javascript" src="assets/scripts/logos.js"></script>
+    <p>
+      <svg class="logos" aria-hidden="true">
+        <use xlink:href="#logos-angular-icon" />
+      </svg>
+      <span>name: angular-icon.svg</span>
+    </p>
+    <p>
+      <svg class="logos md" aria-hidden="true">
+        <use xlink:href="#logos-vue" />
+      </svg>
+      <span>font-size: 1.25rem</span>
+    </p>
+    <p>
+      <svg class="logos lg" aria-hidden="true">
+        <use xlink:href="#logos-react" />
+      </svg>
+      <span>font-size: 1.75rem</span>
+    </p>
+    <p>
+      <svg class="logos xl" aria-hidden="true">
+        <use xlink:href="#logos-eslint" />
+      </svg>
+      <span>Partially modify the color</span>
+      <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/SVG_and_CSS">MDN Doc</a>
+    </p>
   </body>
 </html>

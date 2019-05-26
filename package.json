@@ -1,18 +1,14 @@
 {
   "name": "@ixiaer/icon-logos",
   "version": "1.2.1",
-  "description": "The logos icon font for web apps everywhere.",
+  "description": "Example",
   "scripts": {
-    "icon": "icon symbol -n logos -i 'logos/logos/*.svg'",
-    "release": "standard-version"
+    "icon": "icon symbol -n logos -i 'logos/logos/*.svg'"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ixiaer/icon-logos.git"
   },
-  "files": [
-    "assets"
-  ],
   "keywords": [
     "logos",
     "svg-sprites",
@@ -37,8 +33,7 @@
   "devDependencies": {
     "@commitlint/cli": "^7.5.2",
     "@commitlint/config-conventional": "^7.5.0",
-    "@ixiaer/icon": "^1.1.1",
-    "husky": "^1.3.1",
-    "standard-version": "^5.0.2"
+    "@ixiaer/icon": "^1.1.2",
+    "husky": "^1.3.1"
   }
 }
