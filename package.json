@@ -3,7 +3,7 @@
   "version": "1.2.1",
   "description": "Example",
   "scripts": {
-    "icon": "icon symbol -n logos -i 'logos/logos/*.svg'"
+    "bootstrap": "git submodule init && git submodule update && npm install"
   },
   "repository": {
     "type": "git",
